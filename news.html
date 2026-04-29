@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NBA Scores & Stats</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>📰 Sports News 📰</h1>
+    </header>
+    
+    <nav class="news-filter">
+        <!-- <button onclick="fetchNews('news')">Top Stories</button>-->
+        <button onclick="fetchNews('football/nfl')">NFL</button>
+        <button onclick="fetchNews('basketball/nba')">NBA</button>
+        <button onclick="fetchNews('hockey/nhl')">NHL</button>
+        <button onclick="fetchNews('baseball/mlb')">MLB</button>
+        <button onclick="fetchNews('football/college-football')">CFB</button>
+        <button onclick="fetchNews('hockey/mens-college-hockey')">College Hockey</button>
+		<a href="home.html">Back Home</a>
+    </nav>
+
+    <main>
+        <div id="news-container" class="news-grid">
+            </div>
+    </main>
+</div>
+<script src="news.js"></script>
+</body>
+</html>
